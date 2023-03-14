@@ -1,0 +1,18 @@
+---
+version: "v1"
+image: "cloudstudio-devops-docker.pkg.coding.net/artifacts/saas.container/workspace-all-in-one:2023.02.27-89-arm64-9e0f634"
+extensions: []
+lifecycle: {}
+sidecar:
+  mysql:
+    enabled: true
+    password: "ymltest"
+    database: "coding_ide"
+    port: 3306
+name: "11"
+description: ""
+tags:
+- "Spring Boot"
+ref: "master"
+storage:
+  copy_to_working_dir: false
